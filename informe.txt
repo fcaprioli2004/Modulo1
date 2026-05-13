@@ -1,0 +1,53 @@
+\documentclass{llncs}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{hyperref}
+
+\begin{document}
+
+\title{Guía de Herramientas Digitales y Programación Técnica}
+\author{Fausto}
+\institute{Ingeniería Mechatrónica}
+
+\maketitle
+
+\begin{abstract}
+Este informe detalla los procedimientos fundamentales para la creación y gestión de diversos formatos de archivos técnicos, incluyendo documentación en Markdown, estructuras web en HTML, edición científica en \LaTeX, entornos interactivos de programación y manejo de metadatos en R.
+\end{abstract}
+
+\section{Documentación con Markdown (README.md)}
+El archivo \texttt{README.md} es la pieza central de cualquier repositorio. Utiliza una sintaxis simplificada para facilitar la lectura de proyectos.
+\begin{itemize}
+    \item \textbf{Creación:} Se genera como un archivo de texto plano con extensión \texttt{.md}.
+    \item \textbf{Estructura:} Permite jerarquizar información mediante el uso de almohadillas (\#) para títulos, asteriscos para listas y bloques de código para documentación técnica.
+\end{itemize}
+
+\section{Desarrollo Web Manual (HTML)}
+La creación manual de archivos HTML permite comprender la estructura base de la web sin depender de frameworks externos.
+\begin{itemize}
+    \item \textbf{Estructura Básica:} Se compone de las etiquetas principales \texttt{<html>}, \texttt{<head>} (metainformación) y \texttt{<body>} (contenido visible).
+    \item \textbf{Modo de uso:} Se guarda con extensión \texttt{.html} y puede ser interpretado por cualquier navegador moderno de forma local.
+\end{itemize}
+
+\section{Edición Técnica en \LaTeX\ y Overleaf}
+\LaTeX\ es el estándar para la redacción de documentos científicos y de ingeniería debido a su alta calidad tipográfica.
+\begin{itemize}
+    \item \textbf{Overleaf:} Plataforma en la nube que permite la compilación en tiempo real.
+    \item \textbf{Creación de CV:} El uso de plantillas en Overleaf facilita la organización de información profesional (experiencia, educación) bajo formatos estéticos y rígidos, ideales para perfiles técnicos.
+\end{itemize}
+
+\section{Entornos de Programación Interactiva (Notebooks)}
+Los Notebooks (Jupyter o Google Colab) han revolucionado la forma de documentar código al permitir la ejecución modular.
+\begin{itemize}
+    \item \textbf{Dualidad de Celdas:} Alternan entre celdas de \textit{Markdown} para explicaciones teóricas y celdas de \textit{Code} para ejecución de algoritmos.
+    \item \textbf{Aplicación:} Muy extendidos en análisis de datos, robótica y sistemas de control.
+\end{itemize}
+
+\section{Gestión de Metadatos en R}
+En el entorno de RStudio, la generación de reportes mediante R Markdown permite integrar el análisis de datos con metadatos de configuración.
+\begin{itemize}
+    \item \textbf{Bloque YAML:} Situado al inicio del archivo entre tres guiones (\texttt{---}), define el título, autor, fecha y el formato de salida (HTML, PDF o Word).
+    \item \textbf{Automatización:} La función \textit{Knit} procesa estos metadatos para renderizar el informe final automáticamente.
+\end{itemize}
+
+\end{document}
